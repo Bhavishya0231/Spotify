@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            
+            <div class="home boxColor">
+                <img src="spotifylogo.svg" alt="logo">
+                <ul>
+                    <img class="close" src="close.svg" alt="close">
+                    <li><img src="home.svg" alt="home">Home</li>
+                    <li><img src="search.svg" alt="search">Search</li>
+                </ul>
+
+            </div>
+            <div class="library boxColor">
+                <div class="heading">
+                    <img src="playlist.svg" alt="">
+                    <h3>Your Library ...</h3>
+                </div>
+                <div class="finalsongs">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="right boxColor">
+            <div class="header">
+                <div class="nav">
+                    <img class="hamburger" src="hamburger.svg" alt="hamburger">
+                    <img src="leftarrow.svg" alt="">
+                    <img src="rightarrow.svg" alt="">
+                </div>
+                <div class="buttons">
+                    <button class="sign">SignUp</button>
+                    <button class="log">Login</button>
+                </div>
+            </div>
+
+            <div class="spotifyPlaylist">
+                <h1>Spotify Playlist</h1>
+                <div class="cardcontainer">
+                    <div data-folder="1" class="card">
+                        <div  class="play">
+                            <img src="play.svg" alt="">
+                        </div>
+                        <img src="image1.jpeg" alt="image1">
+                        <h4>Chillout Lounge</h4>
+                        <p>Just learn back and enjoy relaxed beats.</p>
+
+                    </div>
+
+                    <div data-folder="2" class="card">
+                        <div class="play">
+                            <img src="play.svg" alt="">
+                        </div>
+                        <img src="image1.jpeg" alt="image1">
+                        <h4>Chillout Lounge</h4>
+                        <p>Just learn back and enjoy relaxed beats.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="playbar">
+                <div class="upperbar">
+                    <div class="songinfo"></div>
+                    <div class="songbtn">
+                        <img id="presong" src="presong.svg" alt="">
+                        <img id="play" src="play1.svg" alt="">
+                        <img id="nextsong" src="nextsong.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
+
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+
+</html>
